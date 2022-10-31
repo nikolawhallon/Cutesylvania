@@ -40,7 +40,7 @@ extents = Vector2( 8, 64 )
 extents = Vector2( 8, 64 )
 
 [sub_resource type="RectangleShape2D" id=12]
-extents = Vector2( 16, 16 )
+extents = Vector2( 8, 8 )
 
 [node name="Room002" type="Node2D"]
 script = ExtResource( 5 )
@@ -126,7 +126,7 @@ position = Vector2( 40, -136 )
 shape = SubResource( 11 )
 
 [node name="Portal" type="Area2D" parent="."]
-position = Vector2( -112, 40 )
+position = Vector2( -120, 48 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Portal"]
 shape = SubResource( 12 )
